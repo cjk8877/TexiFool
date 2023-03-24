@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="위치 선택"
+        android:textColor="#111111"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/schoolDlgBtn"
+                android:textSize="16dp"
+                android:layout_width="60dp"
+                android:layout_height="39dp"
+                android:text="학교"
+                android:gravity="center"
+                android:background="#A1D4A0"
+                android:textColor="#111111"
+                />
+            <TextView
+                android:id="@+id/stationDlgBtn"
+                android:textSize="16dp"
+                android:layout_width="60dp"
+                android:layout_height="39dp"
+                android:text="역"
+                android:gravity="center"
+                android:background="#DADADA"
+                android:textColor="#111111"
+                />
+        </LinearLayout>
+
+        <!--스크롤뷰 내에 LinearLayout은 하나만 존재할 수 있으므로, 전체를 감싸는 의미 없는 레이아웃을 추가-->
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="400dp">
+            <!--의미 없는 레이아웃을 추가-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <!--학교가 표시되는 레이아웃-->
+        <LinearLayout
+            android:id="@+id/schoolDlg"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/btn1"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="공주대학교 공과대학"/>
+            <TextView
+                android:id="@+id/btn2"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="공주대학교 신관캠퍼스"/>
+            <TextView
+                android:id="@+id/btn3"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="단국대학교 천안캠퍼스"/>
+            <TextView
+                android:id="@+id/btn4"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="상명대학교 천안캠퍼스"/>
+            <TextView
+                android:id="@+id/btn5"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="호서대학교 천안캠퍼스"/>
+            <TextView
+                android:id="@+id/btn6"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="나사렛대학교"/>
+            <TextView
+                android:id="@+id/btn7"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="백석문화대학교"/>
+            <TextView
+                android:id="@+id/btn8"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="금강대학교"/>
+            <TextView
+                android:id="@+id/btn9"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="선문대학교"/>
+            <TextView
+                android:id="@+id/btn10"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="세한대학교"/>
+            <TextView
+                android:id="@+id/btn11"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="한국기술교육대학교"/>
+            <TextView
+                android:id="@+id/btn12"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="한서대학교"/>
+            <TextView
+                android:id="@+id/btn13"
+                android:layout_marginTop="1dp"
+                android:layout_width="280dp"
+                android:layout_height="38dp"
+                android:background="#B4E9B3"
+                android:gravity="center"
+                android:text="순천향대학교"/>
+
+        </LinearLayout>
+
+            <!--역이 표시되는 레이아웃-->
+            <LinearLayout
+                android:id="@+id/stationDlg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginLeft="5dp">
+                <TextView
+                    android:id="@+id/sbtn1"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="280dp"
+                    android:layout_height="38dp"
+                    android:background="#B4E9B3"
+                    android:gravity="center"
+                    android:text="천안역"/>
+                <TextView
+                    android:id="@+id/sbtn2"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="280dp"
+                    android:layout_height="38dp"
+                    android:background="#B4E9B3"
+                    android:gravity="center"
+                    android:text="두정역"/>
+                <TextView
+                    android:id="@+id/sbtn3"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="280dp"
+                    android:layout_height="38dp"
+                    android:background="#B4E9B3"
+                    android:gravity="center"
+                    android:text="직산역"/>
+
+                <TextView
+                    android:id="@+id/sbtn4"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="280dp"
+                    android:layout_height="38dp"
+                    android:background="#B4E9B3"
+                    android:gravity="center"
+                    android:text="성환역"/>
+            </LinearLayout>
+        </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

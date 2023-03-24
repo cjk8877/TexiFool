@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "292309021139",
+    "firebase_url": "https://mychat-5f88e-default-rtdb.firebaseio.com",
+    "project_id": "mychat-5f88e",
+    "storage_bucket": "mychat-5f88e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292309021139:android:327463b957cde21e4dbf26",
+        "android_client_info": {
+          "package_name": "com.example.chattingtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292309021139-9nckttjv27qqn9d6a5q8ov2v9i5om432.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWS6zzNHHhsDQbMniD2LQWTAXkxnJYZ6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292309021139-9nckttjv27qqn9d6a5q8ov2v9i5om432.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292309021139:android:84d0e5002975b3f74dbf26",
+        "android_client_info": {
+          "package_name": "com.example.texifool"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292309021139-9nckttjv27qqn9d6a5q8ov2v9i5om432.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWS6zzNHHhsDQbMniD2LQWTAXkxnJYZ6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292309021139-9nckttjv27qqn9d6a5q8ov2v9i5om432.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
